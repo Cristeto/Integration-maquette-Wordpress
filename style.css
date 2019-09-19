@@ -1,0 +1,208 @@
+/*
+Theme Name: Theme_Sylvain
+Theme URI: https://github.com/bdebot-dev
+Author: ESPINA MAGDALENA Sylvain
+Author URI: https://github.com/bdebot-dev
+Description: Exercice d'intégration d'une maquette dans WordPress
+Version: 1.0
+*/
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Yeseva+One&display=swap');
+
+body {
+  font-family: Lato, sans-serif;
+}
+
+header {
+  background-image: url("img/food-bg-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 0px;
+}
+
+nav {
+  font-family: Gentium Book Basic, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Yeseva One, sans-serif;
+}
+
+#menu {
+  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
+}
+
+#logo {
+  max-width: 10.5rem;
+}
+
+#header-title {
+  color: rgba(255, 255, 255, 0.80);
+}
+
+#see-the-menu {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#see-the-menu:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+.background-img {
+  background-image: url("img/bg-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#food-bg-2 {
+  background-image: url("img/food-bg-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 0px;
+}
+
+#food-bg-3 {
+  background-image: url("img/food-bg-3.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 0px;
+}
+
+.img-contain {
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+}
+
+.text-gold {
+  color: #c90;
+}
+
+#btnTop {
+  display: none;
+  position: fixed;
+  width: 32px;
+  height: 32px;
+  bottom: 24px;
+  right: 24px;
+  z-index: 99;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  cursor: pointer;
+  padding: 12px;
+  padding-top: 4px;
+}
+
+#btnTop:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.text-block {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.pasta {
+  max-width: 64px;
+}
+
+.rounded-btn {
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 50%;
+}
+
+#btn-gold {
+  background-color: #c90;
+}
+
+#btn-gold:hover {
+  background-color: #a37a00;
+  color: white;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.decor-small {
+  max-width: 192px;
+}
+
+.dish {
+  padding: 1em;
+}
+
+.dish-title {
+  border-bottom: solid 1px #cc9900;
+  font-family: 'Yeseva One', serif;
+  color: #cc9900;
+  font-size: 1.2em;
+}
+
+.dish-title p {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.ingredient li {
+  display: inline;
+}
+
+.price {
+  text-align: right;
+  padding-bottom: 0;
+  padding-right: 5px;
+}
+
+.m_ingredients {
+  padding-top: 0.5em;
+}
+
+#food-bg-4 {
+  background-image: url("img/food-bg-4.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.special-dish {
+  border: 1px solid #cc9900;
+  margin-top: 0;
+}
+
+.special-label p {
+  background-color: #cc9900;
+  color: white;
+  vertical-align: bottom;
+  margin-bottom: 0;
+}
+
+.menu h2 {
+  font-family: 'Yeseva One', serif;
+  color: #cc9900;
+  margin-top: 1em;
+}
+
+.menu .row {
+  margin: 15;
+}
+
+.article {
+  color: #cc9900;
+  text-decoration: none;
+  padding-top: 0, 1rem;
+}
+
+.article:hover {
+  text-decoration: none;
+  color: #cc9900;
+}
